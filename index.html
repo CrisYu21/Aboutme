@@ -1,52 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Professional Web Developer Portfolio">
+    <title>My Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-    <h1>My Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Web Developer | Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<section id="about" class="about">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur non placerat lectus. Donec vitae lectus et mi scelerisque auctor. Fusce ac erat a nisi pharetra consequat.</p>
-</section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm John Doe, a passionate web developer specializing in creating intuitive, responsive websites and applications. I have experience with modern web technologies such as HTML, CSS, JavaScript, and more. My goal is to deliver high-quality web solutions that enhance user experience and functionality.</p>
+        </div>
+    </section>
 
-<section id="portfolio" class="portfolio">
-    <h2>My Work</h2>
-    <div class="gallery">
-        <img src="project1.jpg" alt="Project 1">
-        <img src="project2.jpg" alt="Project 2">
-        <img src="project3.jpg" alt="Project 3">
-        <img src="project4.jpg" alt="Project 4">
-    </div>
-</section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="project1.jpg" alt="Project 1">
+                    <figcaption>Project 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="project2.jpg" alt="Project 2">
+                    <figcaption>Project 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="project3.jpg" alt="Project 3">
+                    <figcaption>Project 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="project4.jpg" alt="Project 4">
+                    <figcaption>Project 4</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
 
-<section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <input type="submit" value="Send Message">
-    </form>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
 
-<footer>
-    <p>&copy; 2025 My Portfolio</p>
-</footer>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
